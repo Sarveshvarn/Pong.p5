@@ -63,13 +63,11 @@ class Puck {
         }
         
         if (this.x - this.r > width) {
-            ding.play();
             leftScore++;
             this.reset();
         }
         
         if (this.x + this.r < 0) {
-            ding.play();
             rightScore++;
             this.reset();
         }
