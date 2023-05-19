@@ -10,7 +10,7 @@ function setup() {
 }
 
 function draw() {
-    background(0)
+    background(51)
     
     puck.checkPaddleRight(right);
     puck.checkPaddleLeft(left);
