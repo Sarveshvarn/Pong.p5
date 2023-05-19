@@ -3,7 +3,6 @@ let rightScore = 0;
 
 function setup() {
     createCanvas(600, 400);
-    ding = loadSound("ding.mp3");
     puck = new Puck();
     left = new Paddle(true);
     right = new Paddle(false);
